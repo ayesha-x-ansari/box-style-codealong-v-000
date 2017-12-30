@@ -163,9 +163,9 @@ header{
   text-transform: uppercase;
   color: black;
   text-align: center;
-  border-right: 1px solid #ccc; 
+  border-right: 1px solid #ccc;
   text-decoration: none;
-  font: 1em Trebuchet MS, Arial, sans-serif;  
+  font: 1em Trebuchet MS, Arial, sans-serif;
 }
 
 #navbar nav a.selected{
@@ -176,7 +176,7 @@ header{
 
 #navbar nav a:hover{
   color: white;
-    
+
 }
 /*////////// NAVBAR //////////*/
 
@@ -184,14 +184,18 @@ header{
 
 /*////////// LOGO //////////*/
 
-
+#logo|{
+  padding: 84px 0 0;
+}
 
 #logo h1 {
   font-family: 'Clicker Script', cursive;
+  margin: 0;
 }
 
 #logo h2 {
   font-family: 'Elsie Swash Caps', cursive;
+  margin: 0;
 }
 
 /*////////// MAIN SECTIONS //////////*/
@@ -204,7 +208,9 @@ section {
 
 /*////////// DETAILS //////////*/
 
-
+#detail{
+  border-top: 1px solid white;
+}
 
 #details div {
   height: 221px;
@@ -225,3 +231,10 @@ section {
 }
 
 /*////////// FOOTER //////////*/
+footer{
+  text-align: center;
+  font-size: .75em;
+  padding: 10px;
+  background: #eee;
+  border: 1px solid   #ccc;
+}
